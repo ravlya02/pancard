@@ -1,0 +1,2 @@
+[console_scripts]
+pancard = pancard.cli:main
