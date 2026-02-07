@@ -155,48 +155,6 @@ Raised when PAN validation fails in strict mode.
 }
 ```
 
-## Development
-
-### Setting up development environment
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/pancard.git
-cd pancard
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install in development mode
-pip install -e ".[dev]"
-
-# Run tests
-pytest
-
-# Run linting
-flake8 pancard/
-black pancard/ --check
-mypy pancard/
-```
-
-### Running Tests
-
-```bash
-pytest tests/ -v
-pytest --cov=pancard tests/
-```
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -207,7 +165,7 @@ This package is for educational and validation purposes only. Always verify PAN 
 
 ## Support
 
-If you encounter any problems or have suggestions, please [open an issue](https://github.com/yourusername/pancard/issues).
+If you encounter any problems or have suggestions, please [open an issue](https://github.com/ravlya02/pancard/issues).
 
 ## Acknowledgments
 
